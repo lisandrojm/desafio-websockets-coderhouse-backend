@@ -1,0 +1,20 @@
+/* ************************************************************************** */
+/* /src/components/handlebars/index.js - Contiene el controlador de los carritos de compra 
+(handlebars).js). */
+/* ************************************************************************** */
+
+// Importar el módulo de enrutador de Express
+const { Router } = require('express');
+
+// Importar el controlador de handlebars
+const handlebarsController = require('./handlebarsController/handlebarsController');
+
+const router = Router();
+
+// Definir las rutas y asignar los controladores correspondientes
+router.get('/', handlebarsController.getHandlebars);
+router.get('/realTimeProducts', handlebarsController.getRealTimeProducts);
+
+module.exports = (app) => {
+  app.use(router);
+};
