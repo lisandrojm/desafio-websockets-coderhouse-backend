@@ -8,9 +8,7 @@
     "status": true,
     "stock": "10",
     "category": "Cat.P1",
-    "thumbnails": [
-      "Sin imagen"
-    ]
+    "thumbnails": ["Sin imagen"]
   },
   {
     "id": "pid0f8b",
@@ -20,9 +18,7 @@
     "price": "200",
     "status": true,
     "stock": "20",
-    "category": "Cat.Pr2",
-    "thumbnails": [
-      "Sin imagen"
-    ]
+    "category": "Cat.P2",
+    "thumbnails": ["Sin imagen"]
   }
 ]
