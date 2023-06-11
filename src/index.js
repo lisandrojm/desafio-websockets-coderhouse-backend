@@ -1,3 +1,7 @@
+/* ************************************************************************** */
+/* /src/index.js - Punto de entrada principal para la ejecución de la aplicación
+/* ************************************************************************** */
+
 /* Importar el módulo 'express' para crear y configurar la aplicación del servidor */
 const express = require('express');
 
