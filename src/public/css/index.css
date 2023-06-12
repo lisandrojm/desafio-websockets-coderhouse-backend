@@ -1,3 +1,8 @@
+/* ************************************************************************** */
+/* /src/public/css/index.css - .css de /src/views/layouts/main.handlebars
+ - Aplica a todas las plantillas de handlebars
+/* ************************************************************************** */
+
 body {
   background-color: rgb(233, 233, 233);
 }

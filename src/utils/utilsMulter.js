@@ -1,6 +1,14 @@
+/* ************************************************************************** */
+/* /src/utils/utilsMulter.js - Configuración de Multer  (middleware de manejo de
+ archivos para aplicaciones web basadas en Node.js)
+/* ************************************************************************** */
+
 /* Importamos el paquete 'multer' para manejar la carga de archivos */
 const multer = require('multer');
+
+/* Importar el módulo 'uuid' para generar identificadores únicos */
 const { v4: uuidv4 } = require('uuid');
+
 /* Configuramos el almacenamiento de archivos */
 const storage = multer.diskStorage({
   /* Ruta donde se guardarán las imágenes */

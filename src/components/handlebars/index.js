@@ -12,7 +12,7 @@ const handlebarsController = require('./handlebarsController/handlebarsControlle
 const router = Router();
 
 // Definir las rutas y asignar los controladores correspondientes
-router.get('/', handlebarsController.getHandlebars);
+router.get('/', handlebarsController.getHome);
 router.get('/realTimeProducts', handlebarsController.getRealTimeProducts);
 
 module.exports = (app) => {

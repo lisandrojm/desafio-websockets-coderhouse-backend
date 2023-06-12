@@ -147,8 +147,11 @@ class ProductRouter {
       // Escribir los datos actualizados en el archivo "productos.json"
       await fs.writeFile(this.productosFilePath, JSON.stringify(products, null, 2));
 
+      /* //////////////////////////////////////////////////////////////////// */
+      /* Socket.io */
       // Emitir el evento 'newProduct' a todos los clientes conectados
       req.app.io.emit('newProduct', newProduct);
+      /* //////////////////////////////////////////////////////////////////// */
 
       // Devolver una respuesta exitosa con un mensaje de éxito
       return res.status(201).json({ status: 'success', message: 'Producto agregado correctamente' });
@@ -245,7 +248,12 @@ class ProductRouter {
 
       // Escribir los datos actualizados en el archivo "productos.json"
       await fs.writeFile(this.productosFilePath, JSON.stringify(products, null, 2));
+
+      /* //////////////////////////////////////////////////////////////////// */
+      /* Socket.io */
+      // Emitir el evento 'deleteProduct' a todos los clientes conectados
       req.app.io.emit('deleteProduct', pid);
+      /* //////////////////////////////////////////////////////////////////// */
 
       // Devolver una respuesta exitosa
       return res.status(200).json({ status: 'success', message: 'Producto eliminado correctamente' });

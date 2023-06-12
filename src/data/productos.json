@@ -8,7 +8,9 @@
     "status": true,
     "stock": "10",
     "category": "Cat.P1",
-    "thumbnails": ["Sin imagen"]
+    "thumbnails": [
+      "Sin imagen"
+    ]
   },
   {
     "id": "pid0f8b",
@@ -19,6 +21,21 @@
     "status": true,
     "stock": "20",
     "category": "Cat.P2",
-    "thumbnails": ["Sin imagen"]
+    "thumbnails": [
+      "Sin imagen"
+    ]
+  },
+  {
+    "id": "pid0652",
+    "title": "Producto 3",
+    "description": "Desc.P3",
+    "code": "3",
+    "price": "300",
+    "status": true,
+    "stock": "30",
+    "category": "Cat.P3",
+    "thumbnails": [
+      "Sin imagen"
+    ]
   }
 ]

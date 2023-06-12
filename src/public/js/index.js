@@ -1,3 +1,7 @@
+/* ************************************************************************** */
+/* /src/public/js/index.js - .js de /src/views/realTimeProducts.handlebars 
+/* ************************************************************************** */
+
 // Conecta el cliente a Socket.io
 const socket = io();
 
