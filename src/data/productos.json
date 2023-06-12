@@ -24,18 +24,5 @@
     "thumbnails": [
       "Sin imagen"
     ]
-  },
-  {
-    "id": "pid0652",
-    "title": "Producto 3",
-    "description": "Desc.P3",
-    "code": "3",
-    "price": "300",
-    "status": true,
-    "stock": "30",
-    "category": "Cat.P3",
-    "thumbnails": [
-      "Sin imagen"
-    ]
   }
 ]
