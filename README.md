@@ -62,7 +62,7 @@ npm start
 ```
 
 Esto iniciará el servidor en el puerto 8080.
-Si deseas visualizar los cambios en la ruta `GET /` al actualizar al página una vez agregado o eliminado un producto debes ejecutar la aplicación en "modo de desarrollo".
+Si deseas visualizar los cambios en la ruta `GET /` al actualizar la página una vez agregado o eliminado un producto debes ejecutar la aplicación en "modo de desarrollo".
 
 ### Ejecutar en modo de desarrollo
 
