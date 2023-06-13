@@ -30,6 +30,10 @@ La aplicación expone las siguientes rutas para cumplir con el desafío:
 
 ## Video Test Websockets
 
+
+https://github.com/lisandrojm/desafio_websockets/assets/35199683/f54bb4cf-a7ee-4da1-a915-cda2ac6724a2
+
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
