@@ -14,10 +14,6 @@ class HandlebarsRouter {
   constructor() {
     /* Crear una instancia del enrutador de Express */
     this.router = express.Router();
-    /* Ruta principal */
-    this.router.get('/', this.getHome);
-    /* Ruta para obtener productos en tiempo real */
-    this.router.get('/realtimeproducts', this.getRealTimeProducts);
   }
 
   getHome = async (req, res) => {

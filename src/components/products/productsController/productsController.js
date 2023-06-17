@@ -15,18 +15,12 @@ class ProductRouter {
   constructor() {
     /* Crear una instancia del enrutador de Express */
     this.router = express.Router();
+
     /* Definir la ruta del archivo de almacenamiento productos.json */
     this.productosFilePath = './src/data/productos.json';
 
     // Verificar y crear el archivo "productos.json" si no existe o está vacío
     this.initializeProductsFile();
-
-    // Definir las rutas
-    this.router.get('/', this.getAllProducts);
-    this.router.get('/:pid', this.getProductById);
-    this.router.post('/', this.addProduct);
-    this.router.put('/:pid', this.updateProduct);
-    this.router.delete('/:pid', this.deleteProduct);
   }
 
   // Verificar y crear el archivo "productos.json" si no existe o está vacío
