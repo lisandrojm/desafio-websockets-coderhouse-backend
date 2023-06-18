@@ -11,11 +11,6 @@ const path = require('path');
 const productosFilePath = path.join(__dirname, '../../../data/productos.json');
 
 class HandlebarsRouter {
-  constructor() {
-    /* Crear una instancia del enrutador de Express */
-    this.router = express.Router();
-  }
-
   getHome = async (req, res) => {
     try {
       if (!fs.existsSync(productosFilePath)) {
