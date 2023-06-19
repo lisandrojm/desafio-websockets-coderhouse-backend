@@ -4,7 +4,6 @@
 /* ************************************************************************** */
 
 /* Importar el módulo 'express' para crear y configurar el enrutador */
-const express = require('express');
 const fs = require('fs');
 const path = require('path');
 

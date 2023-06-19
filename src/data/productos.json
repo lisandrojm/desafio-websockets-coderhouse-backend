@@ -24,5 +24,35 @@
     "thumbnails": [
       "Sin imagen"
     ]
+  },
+  {
+    "id": "pidc4a3",
+    "title": "Producto 3",
+    "description": "Desc.P3",
+    "code": "3",
+    "price": "300",
+    "status": true,
+    "stock": "30",
+    "category": "Cat.P3",
+    "thumbnails": [
+      "6669-img1.png",
+      "31cf-img2.png",
+      "fd53-img3.png"
+    ]
+  },
+  {
+    "id": "pid7387",
+    "title": "Producto 4",
+    "description": "Desc.P4",
+    "code": "4",
+    "price": "400",
+    "status": true,
+    "stock": "40",
+    "category": "Cat.P4",
+    "thumbnails": [
+      "748d-img1.png",
+      "eacf-img2.png",
+      "f165-img3.png"
+    ]
   }
 ]
