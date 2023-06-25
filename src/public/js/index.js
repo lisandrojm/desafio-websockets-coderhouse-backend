@@ -75,10 +75,3 @@ function deleteProduct(id) {
       console.error('Error al eliminar el producto:', error);
     });
 }
-
-socket.on('productDeleted', function (id) {
-  var row = document.getElementById(id);
-  if (row) {
-    row.parentNode.removeChild(row);
-  }
-});
